@@ -26,6 +26,7 @@ app.use(helmet());
 const allowedOrigins = [
   "http://localhost:5173",
   // "http://sdett.oa.com:5173",
+  "https://ooa-testing-2-2.onrender.com",
   // "https://eb8d-14-99-178-170.ngrok-free.app",
 ];
 app.use(
